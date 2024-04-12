@@ -1,63 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
-*{
-    font-family: 'young serif';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    background-color: hsl(0, 0%, 8%);
 }
-body {
-    background-color:  hsl(30, 54%, 90%);
-}
-.container {  
-     display: flex; 
+.container { 
+    font-family: inter;
+    font-size: 14px;
+    max-width: 450px;
+    margin: 150px auto;
+    display: flex;
     flex-direction: column;
-    margin: 120px auto;
-     max-width: 737px;
-    background-color:hsl(0, 0%, 100%);
+    background-color:hsl(0, 0%, 12%) ;
     border-radius: 20px;   
     padding: 30px; 
-} 
-img {
-    width: 100%; 
-     border-radius: 20px;
-  }
-  p, li, td {
-    color: hsl(14, 45%, 36%);
-  }
-  h1, h2 {
-    font-family: 'Young serif', serif;
-
-  }
-   h2 {
-    color: hsl(14, 45%, 36%);
-  }
-  h3 {
-    color: hsl(332, 51%, 32%);
-  }
-  hr {
-    color: blue;
-  }
-  .in-box {
-    background-color: hsl(330, 100%, 98%);
+    align-items: center;
+}
+img{
+    width: 100px;
+    border-radius: 90%;
+}
+h1, p  {
+    color: hsl(0, 0%, 100%);
+}
+.yellow{
+    color: hsl(75, 94%, 57%);
+}
+.links:hover{
+    background-color:  hsl(75, 94%, 57%);
+}
+.links{
+    width:400px;
+    height: 50px;
     border-radius: 10px;
-    padding: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-  li {
-      line-height: 2;
-  }
-  table {
-    width: 100%; 
-  }
-  td {
-    padding: 15px; 
-  }
-  
-  tr:not(:first-child) td {
-  
-    border-top: 1px ridge hsl(332, 51%, 32%); 
-  }
-  
-
- 
+    text-align: center;
+    /* border: 20px solid blue; */
+    margin: 5px;
+     color:  hsl(0, 0%, 100%); 
+     background-color: hsl(0, 0%, 20%);
+     
+}
